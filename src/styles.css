@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+p {
+  margin: 5px 0;
+}
+
+.buttonGrey {
+  padding: 10px 0;
+  width: 100%;
+  align-items: left;
+  border-radius: 30px;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}

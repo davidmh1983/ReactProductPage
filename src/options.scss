@@ -1,0 +1,30 @@
+.options {
+  font-size: 12px;
+  margin-top: 10px;
+
+  &TitleSelected {
+    font-weight: bold;
+  }
+
+  &Selection {
+    margin-top: 5px;
+
+    .selected {
+      outline: 1px solid black;
+      background: white;
+    }
+    .buttonOptions {
+      padding: 10px 0;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      background: white;
+      border: 1px solid #ccc;
+    }
+    .colorOption {
+      width: 100px;
+    }
+    .sizeOption {
+      width: 40px;
+    }
+  }
+}

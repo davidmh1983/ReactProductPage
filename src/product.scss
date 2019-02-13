@@ -1,0 +1,145 @@
+.product {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  .textProperties {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .textSummary {
+    margin-top: 35px;
+  }
+
+  &Data {
+    width: 75%;
+
+    .top,
+    .bottom {
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+    }
+    .top {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+
+      .topLeft {
+        width: 45%;
+      }
+      .topRight {
+        margin: 0 0 0 20px;
+
+        width: 55%;
+
+        .brandName {
+          font-size: 12px;
+          font-weight: bold;
+        }
+        .productName {
+          font-size: 24px;
+          font-weight: bold;
+        }
+        .brandImage {
+          width: 70px;
+          max-width: 100%;
+          height: auto;
+          border: 1px solid #ccc;
+          margin-right: 0px;
+        }
+      }
+    }
+    .bottom {
+      .description {
+        width: 65%;
+      }
+      .information {
+        width: 35%;
+        margin: 0 0 0 20px;
+
+        .ProductinformationTitle {
+          font-size: 16px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  &Offer {
+    width: 25%;
+    text-align: left;
+
+    .offerTitle {
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .offerDiv {
+      margin-left: 20px;
+      margin-top: 20px;
+      font-size: 12px;
+    }
+    .offerRateTitle {
+      font-weigth: bold;
+    }
+    .offerOurPrice {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .offerOldPrice {
+      color: #888;
+      margin-bottom: 20px;
+    }
+    .offerOldPrice span:first-child {
+      text-decoration: line-through;
+      margin-right: 5px;
+    }
+    .offerDiscount p {
+      background-color: #ccc;
+      padding: 10px;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &Image {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  .offerSummary,
+  .productAndLogo {
+    display: flex;
+    width: 100%;
+  }
+  .offerPrices,
+  .productAndLogoLeft {
+    width: 75%;
+  }
+  .offerDiscount,
+  .productAndLogoRight {
+    width: 25%;
+  }
+
+  .buttonGrey {
+    padding: 10px 0;
+    width: 80%;
+    align-items: left;
+    border-radius: 30px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  .buttonWhite {
+    padding: 10px 0;
+    width: 80%;
+    align-items: left;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+}
